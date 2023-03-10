@@ -1,7 +1,13 @@
-# nextflix-vite
+# NEXTFLIX-VITE
 
-Clone Netflix coder Vite Js, la bibliothèque React Js(et des libs tièrs) et le framework CSS TailwindCss.
+Ce projet est initié dans l'optique de me familiariser avec le gestionnaire de version Git et Github.  
+Il me permet de revoir mes notes sur le développement frontend avec React Js.
 
-## API
+## LES TECHNOS UTILISEES
 
-j'utilise l'API movies
+Pour ce projet, je vais utiliser :
+
+- Vite Js
+- React Js - React-router-dom - React-swiper - React-icons etc.
+- TailwindCss
+- L'api MOVIES
