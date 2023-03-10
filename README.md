@@ -8,6 +8,6 @@ Il me permet de revoir mes notes sur le développement frontend avec React Js.
 Pour ce projet, je vais utiliser :
 
 - Vite Js
-- React Js - React-router-dom - React-swiper - React-icons etc.
+- React Js (et toutes les librairies utiles à mon projet)
 - TailwindCss
 - L'api MOVIES
