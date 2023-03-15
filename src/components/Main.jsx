@@ -32,7 +32,8 @@ export default function Main() {
 
       //  vue sur les navigateurs
       return (
-      <section className="bg-gray-800 text-white py-10">
+      <>
+            <section className="bg-gray-800 text-white py-10">
 
             <Container>
                   <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-10 uppercase"> à la une</h2>
@@ -56,6 +57,7 @@ export default function Main() {
 
             </Container>
 
-      </section>
+            </section>
+      </>
       )
 }
