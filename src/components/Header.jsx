@@ -1,8 +1,16 @@
+import Aos from  'aos'
+import 'aos/dist/aos.css'
 import Container from "../components/elements/Container";
 // image de couverture
 import CoverImg from '../assets/netflix-cover.jpg';
+import { useEffect } from 'react';
 
 export default function Header() {
+  //  Comportement 
+  useEffect(() => {
+    Aos.init({});
+  }, [])
+  //  vue navigateur
   return (
     <header className="relative w-full h-[450px] md:h-screen">
       {/* l'image de couverture est juste en dessous */}
@@ -19,14 +27,16 @@ export default function Header() {
             <button className="md:btn btn-sm md:btn-sm bg-[#ea292e] text-white capitalize font-semibold tracking-widest">inscription</button>
           </div>
           <div className="text-white py-[10%] md:py-[15%] text-center">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black">Unlimited movies, TV show, and more.</h1>
-            <h5 className="text-2xl mt-9 mb-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black" data-aos="fade-down">
+              Unlimited movies, TV show, and more.
+            </h1>
+            <h5 className="text-2xl mt-9 mb-4" data-aos="fade-up">
               Watch anywhere. Cancel anytime.
             </h5>
-            <p className="text-xl mb-4">
+            <p className="text-xl mb-4" data-aos="fade-up">
               Ready to watch? Enter your email to create or restart your membership.
             </p>
-            <div className="flex w-full justify-center items-center">
+            <div className="flex w-full justify-center items-center" data-aos="fade-up">
             <input type="text" placeholder="Adresse Email" className="p-3 bg-transparent border outline-none btn-md w-2/6" />
             <button className="btn-md bg-[#ea292e] text-white ml-2 font-semibold ">Get Started  </button>
             </div>
