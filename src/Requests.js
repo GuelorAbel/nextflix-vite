@@ -1,7 +1,7 @@
 //  On retrouve ci-après, les clés qui me permettent de me connecter à https://www.themoviedb.org
 
 // Ma clé est stockée dans la variable ci-dessous
-const API_KEY = process.env.REACT_APP_API_KEY
+const key = 'e4d90eb540abef01b91b7e09301fb217';
 // cette ligne me permet d'avoir accès à l'url de l' api  
 const Requests= {
       requestPopular: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=1`,

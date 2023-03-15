@@ -8,7 +8,7 @@ export default function Header() {
       {/* l'image de couverture est juste en dessous */}
       <img src={CoverImg} alt="La photo de couverture de netflix" className="w-full h-full absolute"  />
       {/* le contenu de la page se trouve en dessous */}
-      <div className="absolute w-full h-full bg-black/60">
+      <div className="absolute w-full h-full bg-gradient-to-r from-black">
         <Container>
           <div className="flex justify-between items-center py-6">
             {/* le logo est en dessous */}
